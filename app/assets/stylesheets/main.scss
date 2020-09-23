@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url(asset_path('header.jpg'));
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2535,7 +2535,6 @@ input, select, textarea {
 				-o-transition: background-color 0.35s ease-in-out;
 				-ms-transition: background-color 0.35s ease-in-out;
 				transition: background-color 0.35s ease-in-out;
-				-webkit-backface-visibility: hidden;
 			}
 
 			.carousel .forward:after, .carousel .backward:after {
